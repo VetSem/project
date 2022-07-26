@@ -1,0 +1,52 @@
+/* колір основного тексту color: #212121; */
+/* вторичний колір color: #757575;*/
+/* акцент color: #2196F3; */
+/* колір навігації у footer rgba(255, 255, 255, 0.6); */
+/* колір основного фону  #E5E5E5 */
+/* вторичний колір фону #F5F4FA; */
+/* footer background: #2F303A; */
+
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color:#2196F3;
+    --nav-footer-colot:rgba(255, 255, 255, 0.6);
+    --secondary-backgound-color:#F5F4FA;
+    --footer-background: #2F303A;
+    
+    }
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: #757575;
+            background-color:#FFFFFF;
+    }
+    
+    /* logo */
+    .logo{
+    font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+    
+    .logo-interactive{
+        color: var(--accent-color);
+    } 
+
+
+.logo:hover,
+.logo:focus{
+    color: var(--accent-color);
+}    
+
+
+
+.link.current{
+    color: var(--accent-color);
+}
